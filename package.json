@@ -1,0 +1,39 @@
+{
+  "name": "myth-scsslint",
+  "version": "0.0.1",
+  "description": "nodejs bindings for scss-lint",
+  "repository": "https://github.com/XIAOGUIGUI/scsslint",
+  "author": {
+    "name": "chenronggui",
+    "email": "crg0118@163.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "lib/scsslint.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "async": "^0.6.2",
+    "dargs": "^0.1.0",
+    "chalk": "^0.4.0",
+    "win-spawn": "^2.0.0",
+    "which": "^1.0.5"
+  }
+}
